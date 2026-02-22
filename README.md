@@ -1,17 +1,17 @@
-# 🚀 Agentic Stock Advisor
+#  Agentic Stock Advisor
 
 AI-powered portfolio optimization system that transforms natural language investment goals into mathematically optimal stock allocations.
 
-## ✨ Features
+##  Features
 
-- 🤖 **Natural Language Input**: Describe your investment goals in plain English
-- 📊 **AI Stock Discovery**: Claude AI identifies relevant stocks based on your criteria
-- 📈 **Real Market Data**: Fetches live historical data from Yahoo Finance
-- ⚙️ **Mathematical Optimization**: Gurobi solver finds provably optimal allocations
-- 📄 **Export Reports**: Generate professional PDF and CSV reports
-- 🎯 **Risk-Aware**: Automatically manages portfolio risk and diversification
+-  **Natural Language Input**: Describe your investment goals in plain English
+-  **AI Stock Discovery**: Claude AI identifies relevant stocks based on your criteria
+-  **Real Market Data**: Fetches live historical data from Yahoo Finance
+-  **Mathematical Optimization**: Gurobi solver finds provably optimal allocations
+-  **Export Reports**: Generate professional PDF and CSV reports
+-  **Risk-Aware**: Automatically manages portfolio risk and diversification
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **LLM**: Anthropic Claude (Sonnet 4)
 - **Optimization**: Gurobi Optimizer
@@ -19,7 +19,7 @@ AI-powered portfolio optimization system that transforms natural language invest
 - **Language**: Python 3.10+
 - **Libraries**: pandas, reportlab
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.9+
@@ -52,7 +52,7 @@ Create a `.env` file:
 ANTHROPIC_API_KEY=your-claude-api-key-here
 ```
 
-## 🚀 Usage
+##  Usage
 
 Run the advisor:
 ```bash
@@ -70,7 +70,7 @@ python3 ultimate_stock_advisor.py
 ### Sample Output
 ```
 ================================================================================
-🎯 RECOMMENDED PORTFOLIO
+ RECOMMENDED PORTFOLIO
 ================================================================================
 
 NVDA: 20.00%
@@ -81,12 +81,12 @@ TSLA: 20.00%
   Tesla Inc
   Electric vehicle pioneer...
 
-💰 Expected Annual Return: 54.54%
-📈 Portfolio Beta: 1.88
+ Expected Annual Return: 54.54%
+ Portfolio Beta: 1.88
 ================================================================================
 ```
 
-## 🏗️ Architecture
+##  Architecture
 ```
 Natural Language Goal
     ↓
@@ -99,7 +99,7 @@ Portfolio Optimizer (Gurobi) → Finds mathematically optimal allocation
 Report Generator → Exports to PDF/CSV
 ```
 
-## 📊 Features in Detail
+##  Features in Detail
 
 ### 1. Natural Language Understanding
 Uses Claude AI to parse investment goals and extract:
@@ -128,7 +128,7 @@ Fetches 1-year historical data to calculate:
 - Beta (systematic risk vs S&P 500)
 - Volatility (standard deviation)
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates:
 - **LLM Integration**: Practical use of Claude API for structured extraction
@@ -137,17 +137,17 @@ This project demonstrates:
 - **Real-World APIs**: Working with financial data sources
 - **Software Engineering**: Clean architecture, error handling, export functionality
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Never commit `.env` file (contains API keys)
 - `.gitignore` is configured to exclude sensitive files
 - API keys should be rotated periodically
 
-## 📝 License
+##  License
 
 This project is for educational purposes. Gurobi academic license is for non-commercial use only.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Anthropic Claude for natural language understanding
 - Gurobi for optimization engine
@@ -159,4 +159,4 @@ Nandan Shankara Bharadwaj - nandanbharadwaj2@gmail.com
 
 ---
 
-**⚠️ Disclaimer**: This tool is for educational purposes only. Not financial advice. Always consult a licensed financial advisor before making investment decisions.
+** Disclaimer**: This tool is for educational purposes only. Not financial advice. Always consult a licensed financial advisor before making investment decisions.
