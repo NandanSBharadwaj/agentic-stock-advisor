@@ -61,10 +61,10 @@ python3 ultimate_stock_advisor.py
 
 ### Example Prompts
 ```
-💭 Investment goal: Aggressive AI stocks
-💭 Investment goal: Conservative healthcare dividend stocks
-💭 Investment goal: Clean energy with moderate risk
-💭 Investment goal: High growth tech stocks
+ Investment goal: Aggressive AI stocks
+ Investment goal: Conservative healthcare dividend stocks
+ Investment goal: Clean energy with moderate risk
+ Investment goal: High growth tech stocks
 ```
 
 ### Sample Output
@@ -153,7 +153,7 @@ This project is for educational purposes. Gurobi academic license is for non-com
 - Gurobi for optimization engine
 - Yahoo Finance for market data
 
-## 📧 Contact
+##  Contact
 
 Nandan Shankara Bharadwaj - nandanbharadwaj2@gmail.com
 
